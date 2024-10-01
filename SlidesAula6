@@ -1,0 +1,14 @@
+Heap Sort
+Descrição: Heap Sort é um algoritmo de ordenação que utiliza a estrutura de dados conhecida como heap (ou montanha). Ele transforma o array em um heap máximo (ou mínimo) e, em seguida, extrai os elementos do heap, ordenando-os.
+Complexidade:
+Melhor caso: O(n log ⁡n)
+Caso médio: O(n log ⁡n)
+Pior caso: O(n log ⁡n)
+Notação Assintótica: O tempo de execução do Heap Sort é sempre O(nlog⁡n) devido à necessidade de construir o heap e à extração repetida dos elementos.
+Counting Sort
+Descrição: Counting Sort é um algoritmo de ordenação que conta a ocorrência de cada valor em um intervalo específico. Ele é eficiente quando os valores a serem ordenados estão em um intervalo limitado e conhecido. O algoritmo conta quantas vezes cada valor aparece e usa essa informação para determinar a posição final de cada elemento.
+Complexidade:
+Melhor caso: O(n+k)
+Caso médio: O(n+k)
+Pior caso: O(n+k)
+Notação Assintótica: A complexidade do Counting Sort depende de n (número de elementos a serem ordenados) e k (intervalo dos valores). Assim, é O(n+k). É mais eficiente que O(nlog⁡n) quando k é pequeno em comparação com n.
